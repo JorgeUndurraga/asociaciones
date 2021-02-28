@@ -1,5 +1,6 @@
 package com.latam.arriendos;
 
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +10,7 @@ import com.latam.arriendos.model.Arriendo;
 import com.latam.arriendos.model.Pelicula;
 import com.latam.arriendos.repository.ArriendoRepository;
 import com.latam.arriendos.repository.PeliculaRepository;
+
 
 @SpringBootTest
 class AsociacionesApplicationTests {
@@ -25,9 +27,7 @@ class AsociacionesApplicationTests {
 		//nueva película
 		Pelicula spaceOdyssey = new Pelicula(null, "2001: Odisea del Espacio",
 				
-				"Después de descubrir un misterioso artefacto enterrado" +
-				"bajo la superficie lunar, la humanidad emprende una" +
-				"búsqueda para encontrar sus orígenes con la ayuda de la supercomputadora inteligente H.A.L. 9000",
+				"Después de descubrir un misterioso artefacto enterrado bajo la superficie lunar, la humanidad emprende una búsqueda para encontrar sus orígenes con la ayuda de la supercomputadora inteligente H.A.L. 9000",
 				
 				149);
 		
